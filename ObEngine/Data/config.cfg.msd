@@ -1,0 +1,66 @@
+Define Flag (Settings);
+
+GameConfig:
+	antiAliasing:True
+    depthOfField:True
+    scrollSensibility:1
+    framerateLimit:True
+    framerateTarget:60
+    vsync:True
+    
+KeyBinding:
+    @game
+        Jump:"Space"
+        Left:"Q"
+        Right:"D"
+        Crouch:"S"
+        Sprint:"LShift"
+        Attack:"E"
+        Spell1:"1"
+        Spell2:"2"
+        Spell3:"3"
+        Spell4:"4"
+        Spell5:"W"
+        Spell6:"X"
+        Spell7:"C"
+        Spell8:"V"
+        Reset:"R"
+    @controller
+        A:"Jump"
+    @mapEditor
+        SpriteMode:"W"
+        ObjectMode:"X"
+        CollisionMode:"C"
+        CamFixed:"F10"
+        CamFollow:"F11"
+        CamZone:"F12"
+        CamUp:"Z"
+        CamDown:"S"
+        CamLeft:"Q"
+        CamRight:"D"
+        CamDash:"LShift"
+        RotateLeft:"Divide"
+        RotateRight:"Multiply"
+        ScaleInc:"Add"
+        ScaleDec:"Substract"
+        ZInc:"NumPad8"
+        ZDec:"NumPad2"
+        LayerInc:"NumPad6"
+        LayerDec:"NumPad4"
+        CancelOffset:"O"
+        DeleteSprite:"Delete"
+        GetCursorPos:"N"
+        MagnetizeCursor:"M"
+        MagnetizeUp:"Up"
+        MagnetizeRight:"Right"
+        MagnetizeDown:"Down"
+        MagnetizeLeft:"Left"
+    
+Developpement:
+    showCharacter:True
+    showLevelSprites:True
+    showOverlay:True
+    showCursor:True
+    showCollisions:False
+    showFPS:True
+    COMM:"COM9"

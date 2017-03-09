@@ -1,0 +1,134 @@
+Start Parsing File : Mount.vili
+    Include New File : Obe
+Start Parsing File : Obe.vili
+    Create new RootAttribute : Path
+        Create ComplexAttribute @StringComposant inside Path:Root
+            Create BaseAttribute type(String) inside root<NoFile>/Path/StringComposant (Type:0)
+        Create ComplexAttribute @IntComposant inside Path:Root
+            Create BaseAttribute type(Int) inside root<NoFile>/Path/IntComposant (Type:0)
+        Create ComplexAttribute @__init__ inside Path:Root
+            Create ComplexAttribute @0 inside root<NoFile>/Path/__init__
+                {Herit from : StringComposant}
+            Create ComplexAttribute @1 inside root<NoFile>/Path/__init__
+                {Herit from : IntComposant}
+        Create ComplexAttribute @__body__ inside Path:Root
+            Create BaseAttribute type(Path) inside root<NoFile>/Path/__body__ (Type:0)
+            Create LinkAttribute path linking to &(0/value) inside root<NoFile>/Path/__body__ (Type:5)
+            Create LinkAttribute priority linking to &(1/value) inside root<NoFile>/Path/__body__ (Type:5)
+    Creating New Template from : Path
+    Create new RootAttribute : Workspace
+        Create ComplexAttribute @StringComposant inside Workspace:Root
+            Create BaseAttribute type(String) inside root<NoFile>/Workspace/StringComposant (Type:0)
+        Create ComplexAttribute @IntComposant inside Workspace:Root
+            Create BaseAttribute type(Int) inside root<NoFile>/Workspace/IntComposant (Type:0)
+        Create ComplexAttribute @__init__ inside Workspace:Root
+            Create ComplexAttribute @0 inside root<NoFile>/Workspace/__init__
+                {Herit from : StringComposant}
+            Create ComplexAttribute @1 inside root<NoFile>/Workspace/__init__
+                {Herit from : IntComposant}
+        Create ComplexAttribute @__body__ inside Workspace:Root
+            Create BaseAttribute type(Workspace) inside root<NoFile>/Workspace/__body__ (Type:0)
+            Create LinkAttribute path linking to &(0/value) inside root<NoFile>/Workspace/__body__ (Type:5)
+            Create LinkAttribute priority linking to &(1/value) inside root<NoFile>/Workspace/__body__ (Type:5)
+    Creating New Template from : Workspace
+    Create new RootAttribute : Package
+        Create ComplexAttribute @StringComposant inside Package:Root
+            Create BaseAttribute type(String) inside root<NoFile>/Package/StringComposant (Type:0)
+        Create ComplexAttribute @IntComposant inside Package:Root
+            Create BaseAttribute type(Int) inside root<NoFile>/Package/IntComposant (Type:0)
+        Create ComplexAttribute @__init__ inside Package:Root
+            Create ComplexAttribute @0 inside root<NoFile>/Package/__init__
+                {Herit from : StringComposant}
+            Create ComplexAttribute @1 inside root<NoFile>/Package/__init__
+                {Herit from : IntComposant}
+        Create ComplexAttribute @__body__ inside Package:Root
+            Create BaseAttribute type(Package) inside root<NoFile>/Package/__body__ (Type:0)
+            Create LinkAttribute path linking to &(0/value) inside root<NoFile>/Package/__body__ (Type:5)
+            Create LinkAttribute priority linking to &(1/value) inside root<NoFile>/Package/__body__ (Type:5)
+    Creating New Template from : Package
+Parsed over..
+    Create new RootAttribute : Mount
+        Create ComplexAttribute 0 from Template <Package> inside Mount:Root
+        Create ComplexAttribute 1 from Template <Path> inside Mount:Root
+Parsed over..
+<System> Mounting Package : BiblicalFortress : Package/BiblicalFortress
+Mounted Package : <BiblicalFortress> with priority : 1
+Mounted Path : <> with priority : 0
+<System> List of mounted paths : 
+    <System> MountedPath : Package/BiblicalFortress
+    <System> MountedPath : 
+Try to load : CLIC
+Loaded CLIC
+Try to load : HOLD
+Loaded HOLD
+Try to load : IDLE
+Loaded IDLE
+Try to load : RELEASE
+Loaded RELEASE
+Try to load : IDLE
+Loaded IDLE
+Try to load : SHOOT
+Loaded SHOOT
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+Try to load : FALL_LEFT
+Loaded FALL_LEFT
+Try to load : FALL_RIGHT
+Loaded FALL_RIGHT
+Try to load : IDLE_LEFT
+Loaded IDLE_LEFT
+Try to load : IDLE_RIGHT
+Loaded IDLE_RIGHT
+Try to load : JUMP_LEFT
+Loaded JUMP_LEFT
+Try to load : JUMP_RIGHT
+Loaded JUMP_RIGHT
+Try to load : RUN_LEFT
+Loaded RUN_LEFT
+Try to load : RUN_RIGHT
+Loaded RUN_RIGHT
+Try to load : WALK_LEFT
+Loaded WALK_LEFT
+Try to load : WALK_RIGHT
+Loaded WALK_RIGHT
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.LevelSprite is already loaded
+Try to load : CLIC
+Loaded CLIC
+Try to load : HOLD
+Loaded HOLD
+Try to load : IDLE
+Loaded IDLE
+Try to load : RELEASE
+Loaded RELEASE
+Try to load : AIM
+Loaded AIM
+Loading Sprite at : Sprites/GameObjects/Bible/bible.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.LevelSprite is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.STD.Pair is already loaded
+Loading Sprite at : Sprites/GameObjects/Ball/ball.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+Try to load : AIM
+Loaded AIM
+Loading Sprite at : Sprites/GameObjects/Bible/bible.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.LevelSprite is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.STD.Pair is already loaded
+Loading Sprite at : Sprites/GameObjects/Ball/ball.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+Try to load : AIM
+Loaded AIM
+Loading Sprite at : Sprites/GameObjects/Bible/bible.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.LevelSprite is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.STD.Pair is already loaded
+Loading Sprite at : Sprites/GameObjects/Ball/ball.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+Try to load : AIM
+Loaded AIM
+Loading Sprite at : Sprites/GameObjects/Bible/bible.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.LevelSprite is already loaded
+<Warning:Script:*>[loadCoreLib] : Core.STD.Pair is already loaded
+Loading Sprite at : Sprites/GameObjects/Ball/ball.png
+<Warning:Script:*>[loadCoreLib] : Core.Collision is already loaded

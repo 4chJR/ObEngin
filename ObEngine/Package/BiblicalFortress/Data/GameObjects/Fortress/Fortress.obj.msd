@@ -1,0 +1,23 @@
+Fortress:
+    @Collider
+        solid:True
+        polygonPoints:[
+            "0,0"
+            "300,0"
+            "300,300"
+            "0,300"
+        ]
+    @Animator
+        path:"Sprites/GameObjects/Fortress"
+    @LevelSprite
+        position:"relative"
+        offsetX:0
+        offsetY:0
+        rotation:0
+        scale:0.4
+        layer:1
+        z-depth:0
+    @Script
+        priority:0
+        scriptList:["Data/GameObjects/Fortress/Fortress.lua"]
+

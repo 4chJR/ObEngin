@@ -1,0 +1,22 @@
+Ball:
+    @Collider
+        solid:True
+        polygonPoints:[
+            "0,0"
+            "120,0"
+            "120,120"
+            "0,120"
+        ]
+    @LevelSprite
+        path:"Sprites/GameObjects/Ball/ball.png"
+        position:"relative"
+        offsetX:0
+        offsetY:0
+        rotation:0
+        scale:1.000000
+        layer:1
+        z-depth:0
+    @Script
+        priority:0
+        scriptList:["Data/GameObjects/Ball/Ball.lua"]
+

@@ -1,0 +1,24 @@
+Bible:
+    @Animator
+        path:"Sprites/GameObjects/Bible"
+    @Collider
+        solid:True
+        polygonPoints:[
+            "0,0"
+            "80,0"
+            "80,80"
+            "0,80"
+        ]
+    @LevelSprite
+        path:"Sprites/GameObjects/Bible/bible.png"
+        position:"relative"
+        offsetX:-55
+        offsetY:-40
+        rotation:0
+        scale:0.4
+        layer:1
+        z-depth:0
+    @Script
+        priority:0
+        scriptList:["Data/GameObjects/Bible/Bible.lua"]
+

@@ -1,0 +1,23 @@
+Character:
+    @Animator
+        path:"Sprites/GameObjects/Character"
+    @Collider
+        solid:True
+        click:True
+        polygonPoints:[
+            "0,0"
+            "128,0"
+            "128,235"
+            "0,235"
+        ]
+    @LevelSprite
+        position:"relative"
+        rotation:0
+        scale:1.0
+        layer:1
+        z-depth:1
+        offsetX:0
+        offsetY:0
+    @Script
+        priority:0
+        scriptList:["Data/GameObjects/Character/Character.lua"]
